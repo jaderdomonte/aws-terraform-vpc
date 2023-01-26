@@ -1,0 +1,18 @@
+AWS
+    VPC: 
+        - Escopo regional. 
+        - VPCS de regions diferentes não se comunicam (tem como fazer).
+        - Não se cria recurso aqui.
+    Subnet: 
+        - Escopo de zona de disponibilidade. 
+        - Recursos são criados aqui.
+        - Podem ser Públicas ou Privadas.
+    Route Table:
+        - Mapeia o tráfego entre as subnets.
+    Internet Gateway:
+        - Permite o acesso de uma subnet a internet e vice-versa.
+    NAT Gateway:
+        - Traduz uma rede Pública em Privada.
+        - Permite o acesso de uma subnet a internet porém a internet nao tem acesso a rede.
+    
+    
