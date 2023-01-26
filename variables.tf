@@ -1,1 +1,1 @@
-variable "prefix" {}
+variable "company" {}
